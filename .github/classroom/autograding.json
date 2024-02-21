@@ -1,0 +1,274 @@
+{
+  "tests": [
+    {
+      "name": "CanvasTests - Test Bounding Box with Polygon",
+      "setup": "",
+      "run": "sbt \"testOnly *CanvasTests -- -z \\\"Test Bounding Box with Polygon\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "CanvasTests - Test Bounding Box with Circle",
+      "setup": "",
+      "run": "sbt \"testOnly *CanvasTests -- -z \\\"Test Bounding Box with Circle\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "CanvasTests - Test Bounding Box with two circles and one polygon",
+      "setup": "",
+      "run": "sbt \"testOnly *CanvasTests -- -z \\\"Test Bounding Box with two circles and one polygon\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "CanvasTests - Test Overlap of two figures",
+      "setup": "",
+      "run": "sbt \"testOnly *CanvasTests -- -z \\\"Test Overlap of two figures\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "CanvasTests - Test Place Right 1",
+      "setup": "",
+      "run": "sbt \"testOnly *CanvasTests -- -z \\\"Test Place Right 1\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "CanvasTests - Test Place Right 2",
+      "setup": "",
+      "run": "sbt \"testOnly *CanvasTests -- -z \\\"Test Place Right 2\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "CanvasTests - Test Place Right 3",
+      "setup": "",
+      "run": "sbt \"testOnly *CanvasTests -- -z \\\"Test Place Right 3\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "CanvasTests - Test Place Top 1",
+      "setup": "",
+      "run": "sbt \"testOnly *CanvasTests -- -z \\\"Test Place Top 1\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "CanvasTests - Test Place Top 2",
+      "setup": "",
+      "run": "sbt \"testOnly *CanvasTests -- -z \\\"Test Place Top 2\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "CanvasTests - Test Place Top 3",
+      "setup": "",
+      "run": "sbt \"testOnly *CanvasTests -- -z \\\"Test Place Top 3\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "CanvasTests - Test Rotate",
+      "setup": "",
+      "run": "sbt \"testOnly *CanvasTests -- -z \\\"Test Rotate\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "CanvasTests - Test Translate",
+      "setup": "",
+      "run": "sbt \"testOnly *CanvasTests -- -z \\\"Test Translate\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "CanvasTests - Test Reflection 1",
+      "setup": "",
+      "run": "sbt \"testOnly *CanvasTests -- -z \\\"Test Reflection 1\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "CanvasTests - Test Reflection 2",
+      "setup": "",
+      "run": "sbt \"testOnly *CanvasTests -- -z \\\"Test Reflection 2\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "InterpreterTests - Program 1",
+      "setup": "",
+      "run": "sbt \"testOnly *InterpreterTests -- -z \\\"Program 1\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "InterpreterTests - Program 2",
+      "setup": "",
+      "run": "sbt \"testOnly *InterpreterTests -- -z \\\"Program 2\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "InterpreterTests - Program 3",
+      "setup": "",
+      "run": "sbt \"testOnly *InterpreterTests -- -z \\\"Program 3\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "InterpreterTests - Serpinski",
+      "setup": "",
+      "run": "sbt \"testOnly *InterpreterTests -- -z \\\"Serpinski\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "InterpreterTests - Mandala",
+      "setup": "",
+      "run": "sbt \"testOnly *InterpreterTests -- -z \\\"Mandala\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "InterpreterTests - Petals",
+      "setup": "",
+      "run": "sbt \"testOnly *InterpreterTests -- -z \\\"Petals\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "OperatorTests - Simple Circle",
+      "setup": "",
+      "run": "sbt \"testOnly *OperatorTests -- -z \\\"Simple Circle\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "OperatorTests - Simple Triangle",
+      "setup": "",
+      "run": "sbt \"testOnly *OperatorTests -- -z \\\"Simple Triangle\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "OperatorTests - Simple Rectangle",
+      "setup": "",
+      "run": "sbt \"testOnly *OperatorTests -- -z \\\"Simple Rectangle\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "OperatorTests - Simple Line",
+      "setup": "",
+      "run": "sbt \"testOnly *OperatorTests -- -z \\\"Simple Line\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "OperatorTests - Overlap Operator Test",
+      "setup": "",
+      "run": "sbt \"testOnly *OperatorTests -- -z \\\"Overlap Operator Test\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "OperatorTests - Place Right Operator Test",
+      "setup": "",
+      "run": "sbt \"testOnly *OperatorTests -- -z \\\"Place Right Operator Test\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "OperatorTests - Place Top Test",
+      "setup": "",
+      "run": "sbt \"testOnly *OperatorTests -- -z \\\"Place Top Test\\\"\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    }
+  ]
+}
