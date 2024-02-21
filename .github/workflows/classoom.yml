@@ -1,0 +1,36 @@
+name: GitHub Classroom Workflow
+
+on:
+  - push
+  - workflow_dispatch
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
+
+jobs:
+  build:
+    name: Autograding
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+      - uses: actions/checkout@v4
+
+      # Step to delete existing testing files in a specific directory
+      - name: Remove existing testing files
+        run: rm -rf ./src/test/scala/edu/colorado/csci3155/project2/*
+
+      # Step to clone/copy the correct testing files from another repository
+      - name: Copy testing files from repository
+        uses: actions/checkout@v4
+        with:
+          repository: 'csci3155-sp24/sample-mp1'
+          path: 'temp_testing_files'
+
+      # Step to copy the testing files to the correct location
+      - name: Replace testing files
+        run: |
+          cp -r ./temp_testing_files/src/test/scala/edu/colorado/csci3155/project2 ./src/test/scala/edu/colorado/csci3155/project2
+
+      - uses: education/autograding@v1
